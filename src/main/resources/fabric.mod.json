@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "oldpistonsound",
+	"version": "${version}",
+	"name": "Old Piston Sound",
+	"description": "Bring back the original Piston Sound!",
+	"authors": [
+		"Jonas_Jones"
+	],
+	"contact": {
+		"homepage": "https://jonasjones.me/projects/oldpistonsound",
+		"sources": "https://github.com/JonasunderscoreJones/OldPistonSound"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/oldpistonsound/icon.png",
+	"environment": "client",
+	"entrypoints": {
+	"main": [
+		"me.jonasjones.OldPistonSound"
+	]
+},
+	"depends": {
+		"fabricloader": ">=0.15.10",
+		"minecraft": "*",
+		"java": ">=21"
+	}
+}
